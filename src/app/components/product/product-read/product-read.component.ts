@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Product } from '../product.model';
 
 @Component({
   selector: 'app-product-read',
@@ -7,9 +8,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ProductReadComponent implements OnInit {
 
+  products: Product[]
+
   constructor() { }
 
   ngOnInit(): void {
+     
   }
 
 }
