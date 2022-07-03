@@ -9,6 +9,9 @@
 
 # dependencies
 /node_modules
+/cache
+/lock
+/log
 
 # profiling files
 chrome-profiler-events*.json
