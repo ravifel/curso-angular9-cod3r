@@ -29,6 +29,11 @@
       "name": "Lápis de cor",
       "price": "1.00",
       "id": 6
+    },
+    {
+      "name": "Livro de Matemática",
+      "price": "10.78",
+      "id": 7
     }
   ]
 }
