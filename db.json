@@ -24,6 +24,11 @@
       "name": "Celular",
       "price": "1200.00",
       "id": 5
+    },
+    {
+      "name": "Lápis de cor",
+      "price": "1.00",
+      "id": 6
     }
   ]
 }
