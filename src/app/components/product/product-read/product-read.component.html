@@ -22,10 +22,9 @@
         <ng-container matColumnDef="action">
             <th mat-header-cell *matHeaderCellDef>Action</th>
             <td mat-cell *matCellDef="let row">
-                <!-- <a [routerLink]="['']">Editar</a> &nbsp;
-                        <a [routerLink]="['']">Excluir</a> -->
 
-                <button [routerLink]="['']" mat-raised-button color="" style="background-color: yellowgreen;">
+                <button [routerLink]="['/products/update/{{ row.id }}']" mat-raised-button color=""
+                    style="background-color: yellowgreen;">
                     <i class="material-icons edit">
                         edit
                     </i>
