@@ -35,8 +35,10 @@ import { MatSortModule } from '@angular/material/sort';
 
 
 import localePt from '@angular/common/locales/pt';
-import { registerLocaleData } from '@angular/common';
+import { APP_BASE_HREF, registerLocaleData } from '@angular/common';
 import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
+import { RouterModule } from '@angular/router';
+import { ProductService } from './components/product/product.service';
 registerLocaleData(localePt);
 
 @NgModule({

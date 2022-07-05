@@ -7,12 +7,23 @@ import { HomeComponent } from './views/home/home.component';
 import { ProductCrudComponent } from './views/product-crud/product-crud.component';
 
 const routes: Routes = [
-  { path: "", redirectTo: "/home", pathMatch: "full" },
-  { path: "home", component: HomeComponent },
-  { path: "products", component: ProductCrudComponent },
+  {
+    path: "",
+    component: HomeComponent
+  },
+  {
+    path: "products",
+    component: ProductCrudComponent
+  },
 
-  { path: "products/create", component: ProductCreateComponent },
-  { path: "products/update/:id", component: ProductUpdateComponent }
+  {
+    path: "products/create",
+    component: ProductCreateComponent
+  },
+  {
+    path: "products/update/:id",
+    component: ProductUpdateComponent
+  }
 ];
 
 @NgModule({

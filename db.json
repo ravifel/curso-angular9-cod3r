@@ -7,13 +7,23 @@
     },
     {
       "id": 2,
-      "name": "Notebook Mac Pro",
+      "name": "Notebook Mac Pro IOS",
       "price": 12000.89
     },
     {
       "id": 3,
-      "name": "Sansung S20+",
-      "price": 5000.89
+      "name": "Sansung S20+ Ultra",
+      "price": "7000.89"
+    },
+    {
+      "name": "Lapis de cor Verde",
+      "price": "1.89",
+      "id": 4
+    },
+    {
+      "name": "Ravi",
+      "price": "100000000.00",
+      "id": 5
     }
   ]
 }
