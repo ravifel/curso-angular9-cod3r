@@ -39,6 +39,7 @@ import { APP_BASE_HREF, registerLocaleData } from '@angular/common';
 import { ProductUpdateComponent } from './components/product/product-update/product-update.component';
 import { RouterModule } from '@angular/router';
 import { ProductService } from './components/product/product.service';
+import { ProductDeleteComponent } from './components/product/product-delete/product-delete.component';
 registerLocaleData(localePt);
 
 @NgModule({
@@ -55,7 +56,8 @@ registerLocaleData(localePt);
     ProductCreateComponent,
     ProductReadComponent,
     ProductRead2Component,
-    ProductUpdateComponent
+    ProductUpdateComponent,
+    ProductDeleteComponent
   ],
   imports: [
     //Modulos

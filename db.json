@@ -2,12 +2,12 @@
   "products": [
     {
       "id": 1,
-      "name": "Caneta BIC Preta",
+      "name": "Caneta BIC Vermelha",
       "price": 5.89
     },
     {
       "id": 2,
-      "name": "Notebook Mac Pro IOS",
+      "name": "Notebook Mac Pro IOS Ravi",
       "price": 12000.89
     },
     {
@@ -24,6 +24,11 @@
       "name": "Ravi",
       "price": "100000000.00",
       "id": 5
+    },
+    {
+      "name": "Inaiê Xico",
+      "price": "10.00",
+      "id": 6
     }
   ]
 }
