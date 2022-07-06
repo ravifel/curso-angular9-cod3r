@@ -2,23 +2,18 @@
   "products": [
     {
       "id": 1,
-      "name": "Caneta BIC Vermelha",
+      "name": "Caneta BIC",
       "price": 5.89
     },
     {
       "id": 2,
-      "name": "Notebook Mac Pro IOS",
+      "name": "Notebook Mac",
       "price": 12000.89
     },
     {
       "id": 3,
-      "name": "Sansung S20+ Ultra",
+      "name": "Sansung S20+",
       "price": "7000.89"
-    },
-    {
-      "name": "Lapis de cor Verde",
-      "price": "1.89",
-      "id": 4
     }
   ]
 }

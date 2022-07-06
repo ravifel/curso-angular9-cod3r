@@ -23,14 +23,14 @@
             <th mat-header-cell *matHeaderCellDef>Action</th>
             <td mat-cell *matCellDef="let row">
 
-                <button [routerLink]="['/products/update/{{ row.id }}']" mat-raised-button color=""
+                <button routerLink="/products/update/{{row.id}}" mat-raised-button color=""
                     style="background-color: yellowgreen;">
                     <i class="material-icons edit">
                         edit
                     </i>
                 </button>
 
-                <button [routerLink]="['/products/delete/{{ row.id }}']" mat-raised-button color=""
+                <button routerLink="/products/delete/{{row.id}}" mat-raised-button color=""
                     style="background-color: rgb(224, 78, 78);">
                     <i class="material-icons delete">
                         delete
